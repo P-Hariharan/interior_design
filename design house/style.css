@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(img/interior.design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav li {
+  display: inline;
+  font-size: larger;
+  margin: 0 10px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav h1 {
+  font-size: 50px;
+}
+
+a {
+  color: orangered;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.body {
+  text-align: center;
+  margin-top: 200px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 350px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.body h1,
+p {
+  color: white;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footer {
+  display: flex;
+  margin-left: 50px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 25px;
+  color: red;
+  font-weight: 900;
+  border: 5px solid red;
+}
+
+li :hover {
+  color: aqua;
+  background-color: black;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
